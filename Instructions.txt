@@ -1,0 +1,16 @@
+Programming language - Java 20.0.2
+
+How the code is structured?
+
+i)Initially ,take the input from the command prompt. The input includes FileName, Number of Red tokens, Number of Blue tokens, Type of Version, First Player & Depth of the search tree and uses the MinMax Algorithm with Alpha-Beta pruning to determine the best move for the computer.
+ii)The minMaxAlphaBeta function takes the number of Red and Blue tokens, a boolean indicating whether the current player is maximizing or minimizing, the current depth, and the alpha and beta values, and uses the MinMax Algorithm with Alpha-Beta pruning to determine the best move for the current player.
+iii)The game allows the Computer & Human to make moves until either the red or blue pile is empty.
+iv)Once the Game Ends, the redBlueNim function calculates the final scores for both players based on the remaining marbles, and declares the winner.
+
+How to run the code?
+
+Type the following command to execute the program from command prompt:
+javac RedBlueNim.java
+java RedBlueNim.java 3 4 (or) java RedBlueNim.java 3 4 misere (or) java RedBlueNim.java 3 4 standard computer 
+                         (or) java RedBlueNim.java 3 4 standard computer 2
+Note: The arguments are case sensitive.
